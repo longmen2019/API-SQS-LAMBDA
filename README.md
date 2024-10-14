@@ -72,4 +72,4 @@ To introduce additional CDK libraries or modify the existing functionalities, up
 
 If you encounter issues installing the AWS CDK toolkit, refer to this Stack Overflow thread for troubleshooting steps and a solution provided by the community: [https://stackoverflow.com/questions/64771199/after-successful-installation-aws-cdk-cdk-command-not-found/79081237#79081237](https://stackoverflow.com/questions/64771199/after-successful-installation-aws-cdk-cdk-command-not-found/79081237#79081237)
 
-This improved README provides a clearer explanation,  step-by-step instructions, and includes a reference to troubleshoot potential installation problems. Additionally, it highlights the `cdk destroy` command for deleting deployed stacks to avoid unnecessary AWS charges.
+
