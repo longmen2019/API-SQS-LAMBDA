@@ -1,4 +1,3 @@
-Sure! Here's a `README.md` file based on the questions and issues you encountered with AWS CDK and permissions:
 
 ```markdown
 # AWS CDK Project Setup
@@ -21,29 +20,7 @@ To bootstrap your AWS environment for CDK, run the following command:
 cdk bootstrap
 ```
 
-If you encounter permission issues, ensure that your IAM user or role has the necessary permissions. For example, you might need to add the following policy to your IAM user or role:
 
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": [
-        "ssm:PutParameter",
-        "ssm:GetParameter",
-        "ssm:GetParameters",
-        "ssm:GetParameterHistory",
-        "ssm:DeleteParameter",
-        "ssm:DescribeParameters",
-        "ssm:ListTagsForResource",
-        "ssm:AddTagsToResource",
-        "ssm:RemoveTagsFromResource"
-      ],
-      "Resource": "arn:aws:ssm:us-east-1:471112503258:parameter/cdk-bootstrap/*"
-    }
-  ]
-}
 ```
 
 ### 2. Install Dependencies
